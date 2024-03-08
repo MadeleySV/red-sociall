@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="https://i.pinimg.com/564x/28/4a/8b/284a8b02fd38405bae4c7d6ea097be66.jpg">
+    <div class="container">
+        <div class="text">
+            <p>"Explora nuevos ritmos, descubre nuevas emociones. La música que necesitas está a un clic de distancia."</p>
+        </div>
+        <form class="form" id="register-form">
+            <h2>Registro</h2>
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email" required>
+            <label for="signup-password">Contraseña:</label>
+            <input type="password" id="signup-password" name="password" required>
+            <a href="#" id="signinLink">Iniciar sesión</a>
+            <button type="submit" id="register">Registrarse</button>
+          </form>
+          <div id="signinModal" class="modal">
+            <div class="modal-content">
+                <span class="close"></span>
+                <h2>Iniciar sesión</h2>
+                <form id="signinForm">
+                    <label for="email-signin">Email:</label>
+                    <input type="email" id="email-signin" name="email" required><br>
+                    <label for="password-signin">Contraseña:</label>
+                    <input type="password" id="password-signin" name="password" required><br>
+                    <button id="google-login" class="btn btn-info">Google</button>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+            </div>
+          </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
