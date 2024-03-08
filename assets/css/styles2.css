@@ -19,13 +19,13 @@
 }
 
 .dark-color{
-    --background: #222230;
-    --foreground: #42435c;
-    --white: #2b2c44;
+    --background: #232230;
+    --foreground: #36274e;
+    --white: #362b44;
     --black: #eeecff;
     --gray: #d5dfd5;
     --shadow: #00000063;
-    --border: #3f4172;
+    --border: #4e3f72;
 }
 .darkTheme.button-Active span{
     margin-left: 16px;
@@ -34,7 +34,7 @@
 body{
     background: var(--background);
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: #3a78ffec;
+    -webkit-tap-highlight-color:  rgb(201, 129, 238);
 }
 button:focus,
 input:focus{
@@ -118,7 +118,7 @@ header{
     transition: .4s;
 }
 .searchBox i:hover{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
 }
 
 .iconBox1 i,
@@ -127,13 +127,13 @@ header{
     background: transparent;
     padding: 10px;
     border-radius: 10px;
-    color: #1877f2;
+    color: rgb(221, 202, 231);
     transition: .4s;
 }
 
 .iconBox1 i:hover,
 .iconBox2 i:hover{
-    background: #1877f2;
+    background: #b78ad1;
     color: #d1deec;
     cursor: pointer;
 }
@@ -248,7 +248,7 @@ header{
     border: none;
     box-shadow:  0 2px 6px 0 var(--shadow);
     border-radius: 50px;
-    color: #4575b3;
+    color: rgb(234, 218, 241);
     font-weight: 600;
     font-size: 15px;
     margin-top: 10px;
@@ -268,12 +268,12 @@ header{
     flex-direction: column;
 }
 .explore a{
-    color: #4575b3;
+    color: rgb(216, 172, 238);
     margin-bottom: 15px;
     font-weight: 600;
 }
 .explore a:hover{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
 }
 .explore a i{
     margin-right: 10px;
@@ -290,7 +290,7 @@ header{
     align-items: center;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #4575b3;
+    color: rgb(201, 129, 238);
 }
 .darkTheme{
     width: 40px;
@@ -340,7 +340,7 @@ header{
 }
 
 .home-center .mini-headign{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
     margin-bottom: 10px;
 }
 .single-stories{
@@ -358,7 +358,7 @@ header{
     top: 0;
     border-radius: 50px;
     overflow: hidden;
-    border: 3px solid #1877f2;
+    border: 3px solid rgb(201, 129, 238);
 }
 .single-stories label img{
     width: 100%;
@@ -476,7 +476,7 @@ header{
 }
 .fb-post1-header .active{
         color: var(--black);
-        border-bottom: 3px solid #1877f2;
+        border-bottom: 3px solid rgb(201, 129, 238);
 }
 .fb-p1-main{
     display: flex;
@@ -507,7 +507,7 @@ header{
     color: var(--gray);  
 }
 .post-title p a{
-    color: #4575b3;
+    color: rgb(201, 129, 238);
 }
 .post-images{
     display: flex;
@@ -597,7 +597,7 @@ header{
     flex-direction: column;
 }
 .heading{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
     margin-bottom: 12px;
 }
 .heading span{
@@ -617,7 +617,7 @@ header{
     margin-bottom: 12px;
 }
 .event-date h3{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
     text-align: center;
     line-height: 20px;
     margin-right: 10px;
@@ -643,7 +643,7 @@ header{
 }
 .event button{
     padding: 6px;
-    background: #1877f2;
+    background: rgb(201, 129, 238);
     color: white;
     border-radius: 6px;
     border: none;
@@ -651,7 +651,7 @@ header{
     transition: .4s;
 }
 .event button:hover{
-    background: #115cbd;
+    background: rgb(201, 129, 238);
     cursor: pointer;
 }
 .event button i{
@@ -685,7 +685,7 @@ header{
     color: var(--gray);
 }
 .friend ul li button{
-    background: #1877f2;
+    background: rgb(201, 129, 238);
     border: none;
     padding: 3px 10px;
     color: white;
@@ -708,7 +708,7 @@ header{
 .create-page ul li .fa-circle-plus{
     color: white;
     padding: 10px;
-    background: #1877f2;
+    background: rgb(201, 129, 238);
     border-radius: 10px;
     font-size: 20px;
     margin-right: 8px;
@@ -733,7 +733,7 @@ header{
     font-size: 12px;
     border: none;
     padding: 3px 10px;
-    background: #1877f2;
+    background: rgb(201, 129, 238);
     color: white;
     border-radius: 50px;
     cursor: pointer;
@@ -757,7 +757,7 @@ header{
 .messenger-search .fa-user-group{
     color: white;
     padding: 10px;
-    background: #1877f2;
+    background: rgb(201, 129, 238);
     border-radius: 10px;
     font-size: 20px;
     margin-right: 8px;
@@ -827,7 +827,7 @@ header{
     background: #ff9600;
 }
 .messenger ul li i{
-    color: #1877f2;
+    color: rgb(201, 129, 238);
     position: absolute;
     right: 12px;
     top: 35%;
