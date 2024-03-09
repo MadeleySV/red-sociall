@@ -17,7 +17,7 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 
 
 ## Nuestros primeros diseños
-
+<!-- probando -->
 (<![plantilla2](https://github.com/MadeleySV/red-sociall/assets/152449695/c4cd3e4d-0271-4b06-b02b-b9f4bb91918f)
 ![plantilla](https://github.com/MadeleySV/red-sociall/assets/152449695/e9ea62ce-2a70-4d22-9166-2b842f872240)
 >)
