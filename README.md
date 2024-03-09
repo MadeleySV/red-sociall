@@ -16,9 +16,15 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 - **Almacenamiento de Archivos**: Firebase Storage
 
 
+<<<<<<< HEAD
 ## Nuestros primeros diseños
 <!-- probando -->
 (<![plantilla2](https://github.com/MadeleySV/red-sociall/assets/152449695/c4cd3e4d-0271-4b06-b02b-b9f4bb91918f)
+=======
+## Nuestros prinmeros diseños
+
+![nuestro primer diseño](<![plantilla2](https://github.com/MadeleySV/red-sociall/assets/152449695/c4cd3e4d-0271-4b06-b02b-b9f4bb91918f)
+>>>>>>> e91c1d8123a67486127f55678aa36013c5164de2
 ![plantilla](https://github.com/MadeleySV/red-sociall/assets/152449695/e9ea62ce-2a70-4d22-9166-2b842f872240)
 >)
 
