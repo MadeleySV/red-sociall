@@ -17,9 +17,12 @@ googleButton.addEventListener("click", async () => {
         // Ocultar el modal
         const signinModal = document.getElementById('signin-modal');
         signinModal.style.display = 'none';
-
+    
+    
     }
     catch (error) {
         console.log(error);
     }
+
+    window.location.href = "index2.html";
 });

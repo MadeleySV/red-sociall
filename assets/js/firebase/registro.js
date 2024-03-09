@@ -15,19 +15,27 @@ signUpForm.addEventListener("submit", async (e) => {
 
     signUpForm.reset();
 
-    showMessage("welcome "+ userCredential.user.email);
+    showMessage("welcome");
+
+    // Retrasar la redirección para que el mensaje Toastr se muestre completamente
+    setTimeout(() => {
+        window.location.href = "index2.html";
+    }, 2000);
+
 
 } catch (error) {
     if (error.code === 'auth/email-already-in-use') {
-      showMessage("Email already in use", "error")
+        showMessage("Email already in use", "error")
     } else if (error.code === 'auth/invalid-email') {
-      showMessage("Invalid email", "error")
+        showMessage("Invalid email", "error")
     } else if (error.code === 'auth/weak-password') {
-      showMessage("Weak password", "error")
-    } else if (error.code) {
-      showMessage("Something went wrong", "error")
+        showMessage("Weak password", "error")
+    } else {
+        showMessage("Something went wrong", "error")
     }
-  }
+}
+
+
 
 });
 
