@@ -15,6 +15,11 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 - **Backend**: Firebase (Firestore, Authentication)
 - **Almacenamiento de Archivos**: Firebase Storage
 
+
+## Nuestros prinmeros diseños
+
+![nuestro primer diseño](<img/Captura de pantalla 2024-01-27 115120.png>)
+
 ## Instalación
 
 1. Clona este repositorio: `git clone https://github.com/MadeleySV/red-sociall.git`
@@ -22,6 +27,8 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 3. Configura tu proyecto de Firebase en el archivo `.env`
 4. Inicia la aplicación: `npm start`
 
+
 ## Contribuir
 
 ¡Siéntete libre de contribuir a este proyecto! Puedes crear una rama, hacer tus cambios y enviar un pull request.
+
