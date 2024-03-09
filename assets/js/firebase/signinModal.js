@@ -44,11 +44,20 @@ signinForm.addEventListener('submit', async (e) => {
     try {
         const credentials = await signInWithEmailAndPassword(auth, email, password);
         console.log(credentials);
-
+    
         // Ocultar el modal
         hideSigninModal();
+    
+        // Verificar si el inicio de sesión fue exitoso antes de redirigir
+        if (credentials.user) {
+            // Redirigir al usuario a otra página
+            window.location.href = "index2.html";
+        } else {
+            console.log("Error al iniciar sesión");
+        }
     }
     catch (error) {
-        console.log(error);
+        console.log("Error al iniciar sesión:", error);
     }
+    
 });
