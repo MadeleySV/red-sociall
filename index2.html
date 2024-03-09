@@ -176,7 +176,20 @@
                             <div class="post-text">
                                 <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="user">
                                 <input type="text-area" placeholder="Comparte tu música con nosotros :3!!">
+                                
                             </div>
+
+                            <div class="createPost">
+                            <form id="formSubirFoto" enctype="multipart/form-data">
+                                <input type="file" id="inputFoto" accept="image/*" />
+                                <button type="button" onclick="subirFoto()">Subir Foto</button>
+
+                                
+                            </form>
+                            </div>
+
+
+                            <div id="vistaPrevia"></div>
 
                             <div class="post-icon">
                                 <a href="#" style="background: #ffebed;">
@@ -209,7 +222,7 @@
                             <div class="fb-post1-header">
                                 <ul>
                                     <li class="active">popular</li>
-                                    <li>recent</li>
+                                    <li>recientes</li>
                                     <li>most view</li>
                                 </ul>
                             </div>
@@ -220,27 +233,27 @@
                                     <li><h3>zaori</h3><span> . 2 hours ago</span></li>
                                     <li><span>02 marzo a las 12:55 PM</span></li>
                                 </ul>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias inventore dolor tempora fugit consequuntur nam officia, quo qui obcaecati quisquam sed temporibus earum velit nobis mollitia exercitationem corrupti assumenda ad!
-                                    <a href="#">cancion</a> <!--  link de youtube-->
+                                <p>Les comparto algunas de mis playlist ^^
+                                    <a href="https://open.spotify.com/intl-es">...</a> <!--  link de youtube-->
                                 </p>
                                 </div>
 
                                 <div class="post-images">
                                     <div class="post-images1">
-                                        <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="post img1">
-                                        <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="post img2">
-                                        <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="post img3">
+                                        <img src="https://i.pinimg.com/564x/27/fc/80/27fc80a9972832680a9e38b51c4ec148.jpg" alt="post img1">
+                                        <img src="https://i.pinimg.com/564x/b1/7f/33/b17f3326e6d43677236da229d1f875ea.jpg" alt="post img2">
+                                        <img src="https://i.pinimg.com/564x/31/bb/fa/31bbfadeecbd9519b6ec500d4cfd9221.jpg" alt="post img3">
                                     </div>
                                     <div class="post-images2">
-                                        <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="post img4">
+                                        <img src="https://i.pinimg.com/564x/10/04/30/10043092ae75515781d15167a4b9def8.jpg" alt="post img4">
                                     </div>
                                 </div>
 
                                 <div class="like-coment">
                                     <ul>
                                         <li>
-                                            <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="love">
-                                            <img src="https://i.pinimg.com/736x/7a/ae/07/7aae0784146da32cb91778e44dd0747d.jpg" alt="like">
+                                            <img src="https://i.pinimg.com/564x/79/06/4d/79064d648b5bfdadafe061ef945abe9b.jpg" alt="love">
+                                            <img src="https://i.pinimg.com/564x/4d/9c/00/4d9c00c4f4174c7d804e08da36c562ab.jpg" alt="like">
                                             <span>5 likes</span>
                                         </li>
                                         <li><i class="fa-regular fa-comment-dots"></i> <span>2 comentarios</span></li>
@@ -341,13 +354,8 @@
 
 
     <!-- fin de la seccion home -->
-    <script> 
-    var darkButton = document.querySelector(".darkTheme");
-
-    darkButton.onclick = function(){
-        darkButton.classList.toggle("button-Active")
-        document.body.classList.toggle("dark-color")
-    }
+    <script src="assets/js/script2.js"> 
+   
     </script>
 </body>
 </html>
