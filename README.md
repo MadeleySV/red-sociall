@@ -18,7 +18,7 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 
 ## Nuestros prinmeros diseños
 
-![nuestro primer diseño](<img/Captura de pantalla 2024-01-27 115120.png>)
+![nuestro primer diseño](<img/https://lh3.googleusercontent.com/chat_attachment/AP1Ws4s-3ctB3toxE4gzlZdLtHy1qRTJpM5e_zFPb16t-bo1-6TzBgqYyR4aL0RnGmS-XugTJBI6_vTNJR78whB7kBO_0EXTR-ZIdm1otgw6GcMG6R29kvtbIxmJVpqzp3g4OBVxussNIO32h7Ynwkh2zXYc7T5BW8kCmY9tGEoZh_rG5u8_YMnMsA8n1LPx5_tHZwAPUPRtR-bA5vv84cz7wfqt561fxSUr4E8IZiP_lw12CQl7qKcxGpjaJYXN5k1ULtIX6aZyq6XmRp4xx4LKVVX5xG0foO_CoyMeIi0QbYBzx01f-dAjXAq1efWaAA=w512>)
 
 ## Instalación
 
