@@ -42,3 +42,26 @@ function subirFoto() {
 
 
 }
+
+
+
+var confirmButtons = document.querySelectorAll('.friend-confirm');
+    var removeButtons = document.querySelectorAll('.friend-remove');
+
+   
+    confirmButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+           
+            console.log('Solicitud de amistad confirmada');
+        });
+    });
+
+    // Agrega eventos a los botones de eliminar
+    removeButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+
+            console.log('Solicitud de amistad eliminada');
+            
+            button.closest('.friend').remove();
+        });
+    });
