@@ -18,7 +18,7 @@ Este proyecto es una red social donde los usuarios pueden compartir y comentar s
 
 ## Nuestros prinmeros diseños
 
-![nuestro primer diseño](<img/plantilla.jpg>)
+![nuestro primer diseño](<D:\redsociall\assets\img\plantilla2.jpg>)
 
 ## Instalación
 
